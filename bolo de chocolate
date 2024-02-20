@@ -1,0 +1,48 @@
+
+/* CLIQUE NO SINAL DE "+", À ESQUERDA, PARA EXIBIR A DESCRIÇÃO DO EXEMPLO
+ *  
+ * Copyright (C) 2014 - UNIVALI - Universidade do Vale do Itajaí
+ * 
+ * Este arquivo de código fonte é livre para utilização, cópia e/ou modificação
+ * desde que este cabeçalho, contendo os direitos autorais e a descrição do programa, 
+ * seja mantido.
+ * 
+ * Se tiver dificuldade em compreender este exemplo, acesse as vídeoaulas do Portugol 
+ * Studio para auxiliá-lo:
+ * 
+ * https://www.youtube.com/watch?v=K02TnB3IGnQ&list=PLb9yvNDCid3jQAEbNoPHtPR0SWwmRSM-t
+ * 
+ * Descrição:
+ * 
+ * 	Este exemplo utiliza a saída de dados do Portugol para exibir a 
+ * 	mensagem "Olá mundo".
+ * 
+ * Autores:
+ * 
+ * 	Giordana Maria da Costa Valle
+ * 	Carlos Alexandre Krueger
+ * 	
+ * Data: 01/06/2013
+ */
+ 
+programa 
+{ 
+	funcao inicio () 
+	{
+		escreva("1 - pegar os ingredientes e a forma")
+    escreva("2 - se o forno estiver ligado passo 4 se não passo 3")
+    escreva("3 - pré-aquecer o forno")
+    escreva("4 - se a forma estiver untada  passo 6 se não")
+    escreva("5 - untar a forma")
+    escreva("6 - misturar os ingredientes")
+    escreva("7 - colocar ingredientes na forma")
+    escreva("8 - colocar a forma no forno")
+    escreva("9 - se a massa não grudar paaso 11 se não passo 10")
+    escreva("10 - deixar no forno por mais 10 minutos e repetir o passo 9")
+    escreva("11 - retirar o bolo do forno")
+    escreva("12 - desenformar o bolo")
+    
+	} 
+  
+}
+
