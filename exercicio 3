@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<locale.h>
+int main(){
+    setlocale(LC_ALL,"");
+    int vitoria=3;
+    int enpate=1;
+    int derrota=0;
+    char nome_time[252];
+    int qtd_empates;
+    int qtd_vitorias;
+    
+    printf(" Digite o nome do time de futebol: ");
+    scanf("%s", nome_time);
+    
+    printf("Quantas vitorias o time obteve: ");
+    scanf("%d", &qtd_vitorias);
+    
+    printf("Quantos empates o time obteve: ");
+    scanf("%d", &qtd_empates);
+    
+    printf("O nome do time é: %s\n", nome_time);
+    printf("O time obteve: %d\n", qtd_vitorias*vitoria, "vitórias!");
+    printf("O time obteve: %d\n", qtd_empates*empate, "empates!");
+    return 0;
+}
