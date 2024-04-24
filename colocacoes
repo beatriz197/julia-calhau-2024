@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+
+   int colocacao;
+   for(colocacao = 1; colocacao<=10; colocacao++)
+   printf("%d° colocacao \n", colocacao);
+   
+    return 0;
+}
