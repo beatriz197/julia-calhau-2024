@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    char M, F, sexo, peso;
+    float   altura, resultado;
+
+    printf("Digite seu sexo: (M), (F):\n");
+    scanf(" %s", &sexo);
+    
+    printf("Digite sua altura: ");
+    scanf("%f", &altura);
+
+    switch (sexo) {
+        case 'M':
+            Peso = (72.7 * altura) - 58;
+            printf("Seu peso ideal é: %.2f \n", resultado);
+            break;
+        case 'F':
+            Peso = (62.1 * altura) - 44.7;
+            printf("Seu peso ideal é: %.2f \n", resultado);
+            break;
+        default:
+            printf("Não possui essa opção! \n");
+            break;
+    }
+
+    return 0;
+}
