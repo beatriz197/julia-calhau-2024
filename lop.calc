@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main() {
+    char Calc;
+    int a, b, resultado;
+
+    printf("Digite uma operacao: (+), (-), (*), (/): ");
+    scanf(" %s", &Calc);
+    
+    printf("Digite o primeiro numero: ");
+    scanf("%d", &a);
+
+    printf("Digite o segundo numero: ");
+    scanf("%d", &b);
+
+    switch (Calc) {
+        case '+':
+            resultado = a + b;
+            printf("A soma é: %d \n", resultado);
+            break;
+        case '-':
+            resultado = a - b;
+            printf("A subtração é: %d \n", resultado);
+            break;
+        case '*':
+            resultado = a * b;
+            printf("A multiplicação: %d \n", resultado);
+            break;
+        case '/':
+            if (b == 0) {
+                printf("Erro: divisao por zero\n");
+            } else {
+                resultado = a / b;
+                printf("A divisão é: %d \n", resultado);
+            }
+            break;
+        default:
+            printf("Operacao invalida\n");
+            break;
+    }
+
+    return 0;
+}
